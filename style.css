@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.adele.com/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+
+.hero-img,
+.info,
+.featured,
+.quote,
+.follow {
+    max-width: 655px;
+    width: 100%;
+    margin: 0 auto 55px;
+}
+
+.logo {
+    font-size: 5em;
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.hero-img img, .quote img, .featured iframe {
+    width: 100%;
+}
+
+.info .number {
+    font-size: 4em;
+    font-weight: 200;
+    color: #f2a900;
+}
+
+.links {
+    display: block;
+}
+
+.info .links a, 
+.sign-btn,
+.watch-button {
+    max-width: 300px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid rgba(242,169,0,0.45);
+    padding: 9px 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+    overflow: hidden;
+    margin: 8px 5px;
+    color: #f2a900;
+    background-color: transparent;
+}
+
+.info .links a:hover,
+.sign-btn:hover,
+.watch-button:hover {
+    color: #000;
+    background-color: rgba(242,169,0,0.45);
+    font-weight: 300;
+}
+
+.info .description {
+    font-size: .9em;
+    color: #f2a900;
+    width: 100%;
+    margin: 6px auto
+}
+
+.video {
+    margin-bottom: 30px;
+}
+
+.song-title {
+    margin: 20px auto 0;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.follow-icon a {
+    font-size: 2em;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.follow-icon a:hover {
+    color: #f2a900;
+}
+
+.follow p {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.sign-btn {
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.copyright {
+    color: #f2a900;
+}
+
+.rule a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rule a:hover {
+    cursor: pointer;
+    color: rgba(242,169,0,0.45);
+}
